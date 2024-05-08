@@ -2,6 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		img {
 			aspect-ratio: attr(width) / attr(height);
@@ -19,18 +20,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="jquery-ui.css" />
-	<script>
-		function heavyTask() {
-			// Simulate a heavy computational task
-			let result = 0;
-			for (let i = 0; i < 1000000000; i++) {
-				result += Math.sqrt(i);
-			}
-			return result;
-		}
-		heavyTask()
-
-	</script>
+	
 
 	<title>Website with perf issues</title>
 </head>
@@ -74,6 +64,11 @@
 				clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 		</div>
 	</div>
+	<script>
+        // Move heavy computational task to a Web Worker
+        const worker = new Worker('heavy-task-worker.js');
+        worker.postMessage('start');
+    </script>
 </body>
 
 </html>

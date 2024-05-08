@@ -18,3 +18,5 @@ The goal is to optimize the application to have better web vitals score
   ![score 9](image-1.png)
 - correct images layout shift
   ![alt text](image-2.png)
+- add web worker for heavy task 
+![alt text](image-3.png)
