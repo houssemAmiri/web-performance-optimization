@@ -16,3 +16,5 @@ The goal is to optimize the application to have better web vitals score
 
 - make performance worst:
   ![score 9](image-1.png)
+- correct images layout shift
+  ![alt text](image-2.png)
