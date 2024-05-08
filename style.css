@@ -26,11 +26,6 @@ h1 {
   grid-gap: 15px;
 }
 
-.images img {
-  width: 100%;
-  height: auto;
-}
-
 .blog {
   background: linear-gradient(135deg, #eceddc 25%, transparent 25%),
     linear-gradient(225deg, #eceddc 25%, transparent 25%),
