@@ -7,8 +7,17 @@
 		img {
 			aspect-ratio: attr(width) / attr(height);
 		}
+
+		html {
+			font-family: Dokdo, sans-serif;
+		
+		}
+
+		
 	</style>
-	
+
+	<link rel="stylesheet" rel="preconnect" href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" crossorigin>
+	<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
 
 	<title>Website with perf issues</title>
 </head>
@@ -52,7 +61,7 @@
 				clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 		</div>
 	</div>
-	<script defer  src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script defer  src="https://code.jquery.com/jquery-3.72.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css" />
 	<!-- Google Analytics -->
 	<script>
@@ -81,10 +90,21 @@
 	</script>
 	<!-- End Google Analytics -->
 	<script>
-        // Move heavy computational task to a Web Worker
-        const worker = new Worker('heavy-task-worker.js');
-        worker.postMessage('start');
-    </script>
+		// Move heavy computational task to a Web Worker
+		const worker = new Worker('heavy-task-worker.js');
+		worker.postMessage('start');
+	</script>
+	<script>
+		$(document).ready(function () {
+			// Function to log a message
+			function logMessage(message) {
+				console.log(message);
+			}
+
+			// Example usage
+			logMessage("Hello, world!");
+		});
+	</script>
 </body>
 
 </html>

@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Dokdo");
 
-body {
-  font-family: Dokdo, sans-serif;
+body{
   font-size: 22px;
-  display: flex;
-  flex-direction: column-reverse;
+	display: flex;
+	flex-direction: column-reverse;
 }
-
 .container {
   display: flex;
 }
