@@ -24,3 +24,5 @@ The goal is to optimize the application to have better web vitals score
 ![alt text](image-4.png)
 - Add async ro remove rendering blocking resources, minify jquery , default fonts
 ![alt text](image-5.png)
+-minify jquery, add lazy load, update font usage 
+![alt text](image-6.png)
