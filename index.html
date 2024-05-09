@@ -3,11 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-
 	<style>
 		@font-face {
 			font-family: "Open Sans";
@@ -24,10 +19,14 @@
 			font-weight: 400;
 			font-style: normal;
 			font-display: swap;
+			display: flex;
+			flex-direction: column-reverse;
 
 		}
 	</style>
 	<link rel="preconnect" href="https://www.google-analytics.com">
+
+
 
 	<title>Website with perf issues</title>
 </head>
@@ -42,30 +41,30 @@
 
 
 	<div class="images">
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?1" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?2" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?3" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?4" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?5" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?6" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?7" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?8" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?9" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?10" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?11" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?12" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?13" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?14" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?15" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?16" width="400" height="300" />
-		<img loading="lazy" src="https://source.unsplash.com/random/400x300?17" width="400" height="300" />
+		<img loading="lazy" src="public/image-1.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-2.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-3.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-4.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-5.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-6.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-7.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-8.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-9.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-10.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-11.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-12.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-13.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-14.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-15.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-16.avif" width="400" height="300" />
+		<img loading="lazy" src="public/image-17.avif" width="400" height="300" />
 	</div>
 	<div class="container">
 		<div class="box">
 			<h1>Hello</h1>
 		</div>
 		<div class="box">
-			<img loading="lazy" src="https://source.unsplash.com/random/500x300" width="500" height="300" />
+			<img loading="lazy" src="public/image-500-300.avif" width="500" height="300" />
 		</div>
 		<div class="box">
 			<h2>Breaking news</h2>
@@ -79,7 +78,6 @@
 	</div>
 	<script defer src="https://code.jquery.com/jquery-3.72.1.min.js"
 		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.min.css" />
 	<!-- Google Analytics -->
 	<script>
 		(function (i, s, o, g, r, a, m) {
@@ -122,6 +120,13 @@
 			logMessage("Hello, world!");
 		});
 	</script>
+
+	<link rel="stylesheet" href="style.css" media="all">
+
+
+
+
+
 </body>
 
 </html>

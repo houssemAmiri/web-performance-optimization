@@ -28,3 +28,5 @@ The goal is to optimize the application to have better web vitals score
 ![alt text](image-6.png)
 - add fonts in the server, minify css 
 ![alt text](image-7.png)
+- optomize images , correct css 
+![alt text](image-8.png)
