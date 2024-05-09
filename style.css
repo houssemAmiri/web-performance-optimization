@@ -1,5 +1,6 @@
 
 body{
+  font-family: "Dokdo", system-ui;
   font-size: 22px;
 	display: flex;
 	flex-direction: column-reverse;
