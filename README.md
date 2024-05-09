@@ -23,3 +23,4 @@ The goal is to optimize the application to have better web vitals score
 - change google analytics to asynchronous , change css order , defer for jquery file
 ![alt text](image-4.png)
 - Add async ro remove rendering blocking resources, minify jquery , default fonts
+![alt text](image-5.png)
